@@ -10,7 +10,7 @@ import { ForwardRefExoticComponent } from 'react';
 import Link from 'next/link';
 import Input from '@/components/Input';
 import Button from '@/components/Buttons';
-import { useReCaptcha } from 'next-recaptcha-v3';
+// import { useReCaptcha } from 'next-recaptcha-v3';
 import { toast } from 'sonner';
 
 export function SocialLink({
@@ -53,7 +53,7 @@ export default function ContactSection() {
 
   const [isLoading, setIsLoading] = useState(false);
 
-  const { executeRecaptcha } = useReCaptcha();
+  // const { executeRecaptcha } = useReCaptcha();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault();
