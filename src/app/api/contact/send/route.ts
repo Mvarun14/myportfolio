@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
       },
     });
 
-    // Verify SMTP connection (optional, helpful for debugging)
+    // Verify SMTP connection (optional)
     await transporter.verify();
 
     // Send the email
@@ -40,10 +40,19 @@ export async function POST(req: NextRequest) {
       { status: 200 }
     );
   } catch (error: unknown) {
-    console.error("Email send error:", error);
-    return NextResponse.json(
-      { success: false, message: "Failed to send message", error: error.message },
-      { status: 500 }
-    );
+    if (error instanceof Error) {
+      console.error("Email send error:", error);
+      return NextResponse.json(
+        { success: false, message: "Failed to send message", error: error.message },
+        { status: 500 }
+      );
+    } else {
+      console.error("Unexpected error:", error);
+      return NextResponse.json(
+        { success: false, message: "Failed to send message" },
+        { status: 500 }
+      );
+    }
   }
 }
+
