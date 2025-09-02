@@ -14,7 +14,7 @@ export const heroSectionData = {
     },
     secondary: {
       label: 'Download Resume',
-      href: 'https://myportfolio-seven-ivory-33.vercel.app/',
+      href: 'https://drive.google.com/drive/folders/13vvzvKlWokdxORM3xzbo7fSwEFNC96RP?usp=sharing',
       isExternal: true,
     },
   },
