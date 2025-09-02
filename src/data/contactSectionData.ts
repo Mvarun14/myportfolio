@@ -14,7 +14,7 @@ export const contactSectionData = {
     {
       Icon: MapPin,
       title: 'Location',
-      value: 'Buffalo, New York, United States',
+      value: 'New York, United States',
     },
   ],
   socialTitle: 'Connect With Me',
