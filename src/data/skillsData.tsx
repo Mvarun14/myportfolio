@@ -10,6 +10,14 @@ export const skillsData = {
       ],
     },
 
+        {
+      name: 'Frontend Development',
+      skills: [
+        { name: 'HTML', icon: '/skill-icons/html.webp' },
+        { name: 'CSS', icon: '/skill-icons/css.svg' },
+      ],
+    },
+
     {
       name: 'Tools & Technologies',
       skills: [
