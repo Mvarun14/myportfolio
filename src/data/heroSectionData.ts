@@ -14,7 +14,7 @@ export const heroSectionData = {
     },
     secondary: {
       label: 'Download Resume',
-      href: '/MPVarun.pdf',
+      href: 'https://myportfolio-seven-ivory-33.vercel.app/',
       isExternal: true,
     },
   },
