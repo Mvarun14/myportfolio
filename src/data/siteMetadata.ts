@@ -8,6 +8,6 @@ export const siteMetadata = {
     'DevSecOps Engineer',
   ],
   author: 'Munukuntla Phani Varun',
-  url: 'https://mgoyal.com',
+  url: 'https://mpvarun.com',
   image: '/varun.png',
 };
