@@ -2,19 +2,28 @@ export const skillsData = {
   title: 'Skills',
   skillSections: [
     {
-      name: 'Backend Development',
+      name: 'Frontend and Backend Development',
       skills: [
         { name: 'Python', icon: '/skill-icons/python.svg' },
         { name: 'MySQL', icon: '/skill-icons/mysql.svg' },
+        { name: 'HTML', icon: '/skill-icons/html.webp' },
+        { name: 'CSS', icon: '/skill-icons/css.svg' },
 
       ],
     },
 
-        {
-      name: 'Frontend Development',
+
+    {
+      name: 'Security Tools',
       skills: [
-        { name: 'HTML', icon: '/skill-icons/html.webp' },
-        { name: 'CSS', icon: '/skill-icons/css.svg' },
+        { name: 'Burp Suite', icon: '/skill-icons/Burpsuite.png' },
+        { name: 'OWASP Zap', icon: '/skill-icons/Owaspzap.png' },
+        { name: 'Metasploit', icon: '/skill-icons/Metasploit.png' },
+        { name: 'Splunk', icon: '/skill-icons/splunk-logo.png' },
+        { name: 'Nessus', icon: '/skill-icons/nessus.png' },
+        { name: 'Wireshark', icon: '/skill-icons/wireshark.png' },
+        { name: 'Nmap', icon: '/skill-icons/nmap.svg' },
+      
       ],
     },
 
