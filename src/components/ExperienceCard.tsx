@@ -6,7 +6,7 @@ export interface ExperienceCardProps {
   position: string;
   timeline: string;
   location: string;
-  companyLink: string;
+  companyLink?: string;
   descriptions: string[];
 }
 
