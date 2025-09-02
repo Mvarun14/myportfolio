@@ -1,6 +1,4 @@
-# Personal Portfolio Website
-
-A modern, responsive personal portfolio website built with Next.js 14 and TailwindCSS. This project showcases a clean, professional design with smooth animations and a great user experience.
+Portfolio Project
 
 ## Features
 
@@ -46,13 +44,8 @@ src/
 
 ## Getting Started
 
-1. Clone the repository:
-```bash
-git clone https://github.com/mgoyal98/mgoyal-com.git portfolio-template
-cd portfolio-template
-```
 
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 # or
@@ -61,7 +54,7 @@ yarn install
 pnpm install
 ```
 
-3. Run the development server:
+2. Run the development server:
 ```bash
 npm run dev
 # or
@@ -70,7 +63,7 @@ yarn dev
 pnpm dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Customization
 
@@ -79,17 +72,7 @@ pnpm dev
 3. **Theme**: Customize colors and theme in `tailwind.config.js`
 4. **Images**: Replace images in the `public` directory with your own
 
-## Deployment
 
-The easiest way to deploy your portfolio is using [Vercel](https://vercel.com):
-
-1. Push your code to a GitHub repository
-2. Import the project to Vercel
-3. Vercel will detect Next.js and set up the build configuration automatically
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
