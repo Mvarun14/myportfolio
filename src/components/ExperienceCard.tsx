@@ -27,14 +27,16 @@ export default function ExperienceCard({
         <div className='flex flex-col gap-3 lg:gap-2 shrink-0'>
           <h3 className='text-2xl md:text-3xl'>{position}</h3>
           <RenderConditional condition={!!companyLink}>
-            <Link
-              href={companyLink}
-              target='_blank'
-              rel='noopener noreferrer'
-              className={companyClasses}
-            >
-              {company}
-            </Link>
+            {companyLink && (
+              <Link
+                href={companyLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={companyClasses}
+              >
+                {company}
+              </Link>
+            )}
           </RenderConditional>
           <RenderConditional condition={!companyLink}>
             <p className={companyClasses}>{company}</p>
